@@ -1,0 +1,10 @@
+
+.row
+
+    h3 <%- model.title %>
+    h4 <%- model.authorsList %>
+    p
+        textarea.form-control(type='text', placeholder!='<%- model.content %>', readonly)
+
+    i.glyphicon.glyphicon-edit.editArticle
+

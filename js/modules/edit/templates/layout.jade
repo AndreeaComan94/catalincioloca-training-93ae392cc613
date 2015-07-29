@@ -1,0 +1,17 @@
+span
+    form
+        h1 <%- model.title %>
+            h3   <%- model.authorsList %>
+        h5 <%- model.content %>
+
+
+#infoComment
+.addCommentContainer
+    br
+    br
+    form#AddCommentFrom
+        div
+            label
+                span Comment
+                textarea#comment(name='comment')
+                input(type='button', value='Add' ,id="AddCommentButton")
